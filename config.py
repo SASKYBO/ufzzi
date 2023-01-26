@@ -2,17 +2,17 @@ from telethon.sync import TelegramClient
 from telethon.sessions import StringSession
 import os
 APP_ID = os.environ.get("APP_ID",
-"17053751")
+"1138829")
 APP_HASH = os.environ.get("APP_HASH",
-"6f90a1382848f5cc767a623f898ab23f")
+"2395478f1897069f56891121929c5374")
 BOT_USERNAME = os.environ.get("BOT_USERNAME",
                            "Qpqpa_bot")
 session = os.environ.get("TERMUX",
-                        "AQEEODcAgJ2YhFOVyw4Sr_3wYXFzgIxdYtovgbPqHTaVXlp286F5i2vEPtem35I-HijIb77NNv3TLRd0Y4K_rQXYBCmTrD0tytqYKjdlupQ2AicZz5Lj5fkyNsVNdtjAWJgROyZkHhyYOJtWNvFeu94AFx8t1t0xi9prHYKS9bNeTTBneSeBNe8uSP9IZfNYmB2C1kSzwFBzkz0Y-2RsOD3wb5ZpXqGGDqdyVXGSMi3cHIDuIpnFTfFQek9nhb2ihm5lOxILH9sm4msRVG4AcOF4hwKJCLlKj8YZQeRPhOiliGP0l2r24YBacEm0VDRuVCeJS01oa2151kbpnfL1jG5LtcUGNwAAAAEs3fMdAA")
+                        "1BJWap1sBu0Tydlx1yAa9r0JFZexkZaUJriKeJAp90EBYCG1tq9k15YzsZLa00WoD2nyY_SsHpW7EZ9xR_-j2c9E-lauLum74DJRoasT6-wCTfnN9evE-7w9W_mr9JqPXpJESPnyv-wGxiAk2vjUaxFcKNU9uSYiaVafG7XZ4eEPYwQBmH4sk0Jv-dEHA-ub6hrOstFOyB56QkvTmhQQOpsAWwmgFvnjqWFktUdwnkHQsg1sf0pfSy5sbx_IFdlWy-2-NQLXzfzyHBdmoKQ5QCVcrpUIpTXh9AZWxdAIG6xN7n4BQwbq_JP51qs2jgNjeNKpLGYKt1BQBanK5n_Ussk-kXpaP6HY=")
 SESSION = os.environ.get("TERMUX",
-                        "AQEEODcAgJ2YhFOVyw4Sr_3wYXFzgIxdYtovgbPqHTaVXlp286F5i2vEPtem35I-HijIb77NNv3TLRd0Y4K_rQXYBCmTrD0tytqYKjdlupQ2AicZz5Lj5fkyNsVNdtjAWJgROyZkHhyYOJtWNvFeu94AFx8t1t0xi9prHYKS9bNeTTBneSeBNe8uSP9IZfNYmB2C1kSzwFBzkz0Y-2RsOD3wb5ZpXqGGDqdyVXGSMi3cHIDuIpnFTfFQek9nhb2ihm5lOxILH9sm4msRVG4AcOF4hwKJCLlKj8YZQeRPhOiliGP0l2r24YBacEm0VDRuVCeJS01oa2151kbpnfL1jG5LtcUGNwAAAAEs3fMdAA")
+                        "1BJWap1sBu0Tydlx1yAa9r0JFZexkZaUJriKeJAp90EBYCG1tq9k15YzsZLa00WoD2nyY_SsHpW7EZ9xR_-j2c9E-lauLum74DJRoasT6-wCTfnN9evE-7w9W_mr9JqPXpJESPnyv-wGxiAk2vjUaxFcKNU9uSYiaVafG7XZ4eEPYwQBmH4sk0Jv-dEHA-ub6hrOstFOyB56QkvTmhQQOpsAWwmgFvnjqWFktUdwnkHQsg1sf0pfSy5sbx_IFdlWy-2-NQLXzfzyHBdmoKQ5QCVcrpUIpTXh9AZWxdAIG6xN7n4BQwbq_JP51qs2jgNjeNKpLGYKt1BQBanK5n_Ussk-kXpaP6HY=")
 token = os.environ.get("TOKEN",
-                      "5700874811:AAEgZ4OKHOLJ98Va_OO7Qr-Uuxg1f0BcFrg")
+                      "5348430767:AAEUtqHybH5mY2VqyjwoZqtouuC48BARQK4")
 fifthon = TelegramClient(StringSession(session), APP_ID, APP_HASH)
 bot = TelegramClient("bot", APP_ID, APP_HASH).start(bot_token=token)
 ispay = ['yes']
